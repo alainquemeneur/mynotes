@@ -1,0 +1,41 @@
+gcc mynotes_checktotp.c -o mynotes_checktotp.cgi -lmariadbclient
+cp mynotes_checktotp.cgi /usr/lib/cgi-bin/
+gcc mynotes_newprofile.c -o mynotes_newprofile.cgi -lmariadbclient
+cp mynotes_newprofile.cgi /usr/lib/cgi-bin/
+gcc mynotes_main.c -o mynotes_main.cgi -lmariadbclient
+cp mynotes_main.cgi /usr/lib/cgi-bin/
+gcc mynotes_adddossier.c -o mynotes_adddossier.cgi -lmariadbclient
+cp mynotes_adddossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_doadddossier.c -o mynotes_doadddossier.cgi -lmariadbclient
+cp mynotes_doadddossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_addnote.c -o mynotes_addnote.cgi -lmariadbclient
+cp mynotes_addnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_doaddnote.c -o mynotes_doaddnote.cgi -lmariadbclient
+cp mynotes_doaddnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_viewnote.c -o mynotes_viewnote.cgi -lmariadbclient
+cp mynotes_viewnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_updatenote.c -o mynotes_updatenote.cgi -lmariadbclient
+cp mynotes_updatenote.cgi /usr/lib/cgi-bin/
+gcc mynotes_doupdatenote.c -o mynotes_doupdatenote.cgi -lmariadbclient
+cp mynotes_doupdatenote.cgi /usr/lib/cgi-bin/
+gcc mynotes_supprnote.c -o mynotes_supprnote.cgi -lmariadbclient
+cp mynotes_supprnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_dosupprnote.c -o mynotes_dosupprnote.cgi -lmariadbclient
+cp mynotes_dosupprnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_supprdossier.c -o mynotes_supprdossier.cgi -lmariadbclient
+cp mynotes_supprdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_dosupprdossier.c -o mynotes_dosupprdossier.cgi -lmariadbclient
+cp mynotes_dosupprdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_modifdossier.c -o mynotes_modifdossier.cgi -lmariadbclient
+cp mynotes_modifdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_modifdossier2.c -o mynotes_modifdossier2.cgi -lmariadbclient
+cp mynotes_modifdossier2.cgi /usr/lib/cgi-bin/
+gcc mynotes_domodifdossier.c -o mynotes_domodifdossier.cgi -lmariadbclient
+cp mynotes_domodifdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_2fa.c -o mynotes_2fa.cgi -lmariadbclient
+cp mynotes_2fa.cgi /usr/lib/cgi-bin/
+gcc mynotes_active2fa.c -o mynotes_active2fa.cgi -lmariadbclient
+cp mynotes_active2fa.cgi /usr/lib/cgi-bin/
+gcc mynotes_desactive2fa.c -o mynotes_desactive2fa.cgi -lmariadbclient
+cp mynotes_desactive2fa.cgi /usr/lib/cgi-bin/
+rm *.cgi

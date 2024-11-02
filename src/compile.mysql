@@ -1,0 +1,41 @@
+gcc mynotes_checktotp.c -o mynotes_checktotp.cgi -lmysqlclient
+cp mynotes_checktotp.cgi /usr/lib/cgi-bin/
+gcc mynotes_newprofile.c -o mynotes_newprofile.cgi -lmysqlclient
+cp mynotes_newprofile.cgi /usr/lib/cgi-bin/
+gcc mynotes_main.c -o mynotes_main.cgi -lmysqlclient
+cp mynotes_main.cgi /usr/lib/cgi-bin/
+gcc mynotes_adddossier.c -o mynotes_adddossier.cgi -lmysqlclient
+cp mynotes_adddossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_doadddossier.c -o mynotes_doadddossier.cgi -lmysqlclient
+cp mynotes_doadddossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_addnote.c -o mynotes_addnote.cgi -lmysqlclient
+cp mynotes_addnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_doaddnote.c -o mynotes_doaddnote.cgi -lmysqlclient
+cp mynotes_doaddnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_viewnote.c -o mynotes_viewnote.cgi -lmysqlclient
+cp mynotes_viewnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_updatenote.c -o mynotes_updatenote.cgi -lmysqlclient
+cp mynotes_updatenote.cgi /usr/lib/cgi-bin/
+gcc mynotes_doupdatenote.c -o mynotes_doupdatenote.cgi -lmysqlclient
+cp mynotes_doupdatenote.cgi /usr/lib/cgi-bin/
+gcc mynotes_supprnote.c -o mynotes_supprnote.cgi -lmysqlclient
+cp mynotes_supprnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_dosupprnote.c -o mynotes_dosupprnote.cgi -lmysqlclient
+cp mynotes_dosupprnote.cgi /usr/lib/cgi-bin/
+gcc mynotes_supprdossier.c -o mynotes_supprdossier.cgi -lmysqlclient
+cp mynotes_supprdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_dosupprdossier.c -o mynotes_dosupprdossier.cgi -lmysqlclient
+cp mynotes_dosupprdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_modifdossier.c -o mynotes_modifdossier.cgi -lmysqlclient
+cp mynotes_modifdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_modifdossier2.c -o mynotes_modifdossier2.cgi -lmysqlclient
+cp mynotes_modifdossier2.cgi /usr/lib/cgi-bin/
+gcc mynotes_domodifdossier.c -o mynotes_domodifdossier.cgi -lmysqlclient
+cp mynotes_domodifdossier.cgi /usr/lib/cgi-bin/
+gcc mynotes_2fa.c -o mynotes_2fa.cgi -lmysqlclient
+cp mynotes_2fa.cgi /usr/lib/cgi-bin/
+gcc mynotes_active2fa.c -o mynotes_active2fa.cgi -lmysqlclient
+cp mynotes_active2fa.cgi /usr/lib/cgi-bin/
+gcc mynotes_desactive2fa.c -o mynotes_desactive2fa.cgi -lmysqlclient
+cp mynotes_desactive2fa.cgi /usr/lib/cgi-bin/
+rm *.cgi
